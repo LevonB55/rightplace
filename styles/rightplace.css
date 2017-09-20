@@ -1,0 +1,282 @@
+/*---------------------
+		General Styles
+	----------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+	
+header, section, footer, aside, nav, main, article, figure {
+		display: block; 
+}
+
+
+	/*---------------------
+		Typography
+	----------------------*/
+	
+h1 {
+	font-size:3.084em;
+}	
+h2 {
+	font-size:2.459em;
+}
+h3 {
+	font-size:1.709em;
+}
+p {
+	font-size:0.875em;
+}
+
+/*---------------------
+		Header
+	----------------------*/
+	
+.header_outerwrapper {	
+	background-image: url("../images/banner.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}	
+	
+header {
+	width:1280px;
+	height:798px;
+	margin: 0 auto;
+	text-align: center;	
+}
+.header_innerwrapper {	
+	padding-top: 67px;
+}
+header h1 {
+	color:#ffffff;
+	font-weight:400;
+	text-transform:uppercase;	
+}
+span {
+	font-weight:bold;	
+}
+#zip {
+	width:336px;
+	height:334px;
+	margin:50px 472px 30px;
+	background:#fff;
+	padding:30px 0 25px;
+	border:1px solid #c4c4c4;
+	box-shadow: 0.5px 0.5px #ebebeb;
+}
+.postcode {
+	font-size:0.96em;
+	color:#b4adad;
+	font-weight:400;
+	height:37px;
+	margin:0 65px;
+	padding-left:14px;
+	border:1px solid #e5e5e5;
+	box-shadow:0 -1px #e8e8e8;
+}	
+.capcity {
+	width:337px;
+	margin-top:23px;
+}
+.ziptext {
+	color:#938e8e;
+	font-weight:550;
+	margin:27px 71px 0 46px;	
+}
+.subbut {
+	background:#227dd3;
+	color:#fff;
+	font-size:1.603em;
+	font-weight:500;
+	height:46px;
+	width:192px;
+	margin:18px 73px 37px 69px;	
+}
+
+/*---------------------
+		info
+	----------------------*/
+
+#info {
+	width:1280px;
+	height:400px;
+	background:#fff;
+	margin:auto;
+	padding:0;
+	
+	
+}
+.icons {
+	width:400px;
+	height:200px;
+}
+.infocontent {
+	margin:190px 220px 0px 197px;
+}
+.documents {
+	float:left;
+}
+.photoes {
+	float:right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h3 {
+	font-weight:600;
+}
+div .floaticon {
+	float:left;
+}
+div .floattext {
+	margin-top:-25px;
+	margin-left:110px;
+}
+.infotext {
+	margin-top:-15px;
+}
+
+/*---------------------
+		content
+	----------------------*/
+	
+.contentwrap {
+	margin-top:-130px;
+	background-image:url("../images/greenwall.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#content {
+	width:1280px;
+	height:1352px;
+	margin:0 auto;
+	color:#fff;
+	position:relative;
+	overflow:hidden;
+}
+
+.content-main {
+	position:absolute;
+	top:80px;
+	left:240px;
+	width:1000px;
+	height:600px;
+}
+
+.tablettext {
+	width:660px;
+	height:330px;
+	margin:-370px 0px 0px 80px;
+}
+.tablethead {
+	text-align:center;
+	font-weight:500;
+}
+
+#content p {
+	font-size:0.875em;
+	color:#fff;
+	font-weight:400;
+}
+.content-secondary {
+	position:absolute;
+	bottom:-130px;
+	width:990px;
+	left:25px;
+}
+.laptop {
+	float:left;
+	margin-right:60px;
+}
+.laptoptext {
+	margin:-60px 0 0 0;
+	width:1060px;
+}
+.laptophead {
+	font-weight:500;
+}
+.content-secondary  .button {
+	color:#fff;
+	font-size:1.709em;
+	font-weight:500;
+	background:#44a36f;
+	border:3px solid #fff;
+	border-radius:7px;
+	width:200px;
+	height:54px;
+}
+.laptxt {
+	line-height:135%;
+}
+
+/*---------------------
+		map
+	----------------------*/
+	
+#map {
+	position:relative;
+}
+
+.messagewrap {
+	width:450px;
+	margin:auto;
+}
+#message {
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+	background-image:url("../images/circle.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	bottom:35px;
+  }
+.firstname {
+	width:276px;
+	height:33px;
+	font-size:1em;
+	padding:2px 10px 1px 6px;
+	margin:130px 10px 5px 80px;
+}
+.email {
+	width:276px;
+	height:33px;
+	font-size:1em;
+	margin:10px 10px 0 80px;
+	padding:2px 10px 1px 6px;
+}
+.textarea {
+	width:276px;
+	font-size:1em;
+	padding:10px 200px 50px 6px;
+	margin:15px 5px 10px 80px;
+}
+.img {
+	display:block;
+	margin:20px 35px 20px 190px;
+}
+/*---------------------
+		footer
+	----------------------*/
+footer {
+	background:#43a06d;
+	margin-top:-5px;
+}	
+#copyright {
+	width:1280px;
+	height:50px;
+	margin:auto;
+	text-align:center;
+	color:#fff;
+	font-weight:500;
+	padding:15px 0;
+}
