@@ -23,16 +23,16 @@ header, section, footer, aside, nav, main, article, figure {
 	----------------------*/
 	
 h1 {
-	font-size:3.084em;
+	font-size: 3.084em;
 }	
 h2 {
-	font-size:2.459em;
+	font-size: 2.459em;
 }
 h3 {
-	font-size:1.709em;
+	font-size: 1.709em;
 }
 p {
-	font-size:0.875em;
+	font-size: 0.875em;
 }
 
 /*---------------------
@@ -46,8 +46,8 @@ p {
 }	
 	
 header {
-	width:1280px;
-	height:798px;
+	width: 1280px;
+	height: 798px;
 	margin: 0 auto;
 	text-align: center;	
 }
